@@ -1,0 +1,47 @@
+.control-btn {
+    margin:  1.3rem auto;
+
+    .btn {
+        font-size: 1.8rem;
+        cursor: pointer;
+        padding: 10px 25px;
+        margin: 5px 10px;
+        display: inline-flex;
+        color: #f7f7f7;
+        background-color: transparent;
+        border-radius: .5rem;
+        border: 0;
+        align-items: center;
+        justify-content: center;
+        outline: none;
+        // transition-property: background, box-shadow;
+        transition-duration: .35s;
+    } 
+
+    .btn:hover { 
+        filter: brightness(120%);
+    }
+    .btn.btn-start {
+        background-color: var(--primary-color);
+    }
+
+    .btn.btn-reset {
+        background-color: var(--primary-color);
+    }
+    .btn.btn-pause {
+        background-color: red;
+
+    }
+    .btn.btn-resume {
+        color: rgba(253, 253, 253, 0.877);
+        background: #818181
+        repeating-linear-gradient(
+                60deg,
+                transparent,
+                transparent 10px,
+                var(--primary-color) 10px,
+                var(--primary-color) 20px
+            );
+
+    }
+}

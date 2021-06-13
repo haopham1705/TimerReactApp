@@ -1,0 +1,65 @@
+:root {
+  --primary-color: #08BD06;
+  --white-color: #fff;
+  --black-color: #000;
+
+  --grey-color: #7c7c7c;
+  --red-color: #d82727;
+  --text-color: #333;
+  --border-color: #414141;
+}
+@import 'https://fonts.googleapis.com/css?family=Exo:300,400|Orbitron';
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@500;800&display=swap');
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.btn {
+  background-color: var(--primary-color);
+  cursor: pointer;
+  padding: 2px 8px;
+  color: var(--white-color);
+  font-weight: 650;
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 10px;
+}
+.btn-back{
+  background-color: var(--grey-color);
+
+}
+
+.btn:hover {
+  filter: brightness(120%);
+}
+
+.btn:active {
+  filter: brightness(70%);
+}

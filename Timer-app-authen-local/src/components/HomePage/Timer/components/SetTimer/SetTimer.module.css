@@ -1,0 +1,82 @@
+
+.container_button {
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    flex-direction:row;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.container_button > button:nth-child(1),
+.container_button > button:nth-child(2),
+.container_button > button:nth-child(3),
+.container_button > button:nth-child(4),
+.container_button > button:nth-child(5) {
+    width: 120px;
+    height: 90px;
+    font-size: 60px;
+    font-weight: bold;
+    margin-right: 5px;
+    border: solid black 4px;
+    border-radius: 10px;
+    background-color: greenyellow;
+}
+
+.container_button > button:nth-child(1):hover,
+.container_button > button:nth-child(2):hover,
+.container_button > button:nth-child(3):hover,
+.container_button > button:nth-child(4):hover,
+.container_button > button:nth-child(5):hover,
+.container_button:nth-child(1) > button:nth-child(6):hover {
+    font-size: 80px;
+    box-shadow: 8px 8px #708064;
+    transition: all .5s ease-out;
+}
+
+.container_button > button:nth-child(1):focus,
+.container_button > button:nth-child(2):focus,
+.container_button > button:nth-child(3):focus,
+.container_button > button:nth-child(4):focus,
+.container_button > button:nth-child(5):focus,
+.container_button:nth-child(1) > button:nth-child(6):focus {
+    background-position: left bottom;
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right,black 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.6s ease;
+    background-size: 200% 100%;
+}
+
+.container_button:nth-child(2) > button:nth-child(6):hover {
+    font-size: 80px;
+    box-shadow: 8px 8px #708064;
+    background: linear-gradient(to right,black 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+.container_button:nth-child(1) > button:nth-child(6) {
+    width: 200px;
+    height: 100px;
+    background: greenyellow;
+    border: solid black 4px;
+    border-radius: 10px;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.container_button:nth-child(2) > button:nth-child(6) {
+    width: 200px;
+    height: 100px;
+    background: gainsboro;
+    border: solid black 4px;
+    border-radius: 10px;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}

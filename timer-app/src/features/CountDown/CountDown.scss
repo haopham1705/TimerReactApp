@@ -1,0 +1,46 @@
+.countdown-content {
+    margin: 0 auto;
+    text-align: center;
+
+    &__title {
+        color: var(--white-color);
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color: var(--primary-color);
+        padding: 10px 0; 
+    }
+    .btn-timer {
+        cursor: pointer;
+        padding: 15px 0;
+        margin: 5px;
+        width: 100%;
+        max-width: 100px;
+        font-size: 1.8rem;
+        color: var(--text-color);
+        background-size: 200% auto;
+        background-image: linear-gradient(to right, #67fc65 0%, #27e624 51%, var(--primary-color) 100%);
+        transition: 0.5s;
+        border: 8px solid var(--border-color);
+        border-radius: 10px;
+        font-weight: bold;
+    }
+    .btn-timer:hover { 
+        background-position: right center; 
+        transition: all 0.5s;
+    }
+    .btn-control {
+        max-width: 150px;
+    }
+    .muted {
+        color: #ffffff;
+        background-image: linear-gradient(to right, #bec0be 0%, #7c7c7c 51%, var(--grey-color) 100%);
+    }
+    .start-timer-btn { 
+
+    }
+    .pause-timer-btn {
+        color: #fff;
+        background-image: linear-gradient(to right, #ff7474 0%, #d12727 51%, var(--red-color) 100%);
+
+    }
+}

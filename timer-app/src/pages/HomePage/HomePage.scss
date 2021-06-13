@@ -1,0 +1,21 @@
+.homepage_content {
+    .navbar {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+
+        &__item{
+            background-color: var(--primary-color);
+            padding: 6rem;
+            margin: 8px;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+        &__item:hover{
+            filter: brightness(120%);
+        }
+        h1 {
+            color: #fff;
+        }
+    }
+}

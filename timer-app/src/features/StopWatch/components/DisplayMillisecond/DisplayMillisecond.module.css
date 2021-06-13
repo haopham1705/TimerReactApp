@@ -1,0 +1,16 @@
+.displayTimer {
+    /* border: 1px solid grey; */
+    display: flex; 
+    justify-content: center;
+}
+.digits {
+    font-size: 4rem;
+    font-family: 'Exo', sans-serif;
+    color: var(--text-color);
+    margin: 10px 5px;
+    padding: 5px;
+}
+.miliSec {
+    color: var(--primary-color);
+    text-align: end;
+}

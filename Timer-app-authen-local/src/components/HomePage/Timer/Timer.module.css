@@ -1,0 +1,8 @@
+.container_timer {
+    border: solid black 4px;
+    background: rgb(243, 232, 232);
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+    height: 30%;
+}

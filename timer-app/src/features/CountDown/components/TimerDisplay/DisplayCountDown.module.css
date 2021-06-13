@@ -1,0 +1,7 @@
+
+.digit_timer {
+    font-size: 4rem;
+    font-family: 'Exo', sans-serif;
+    color: var(--text-color);
+    letter-spacing: 2px;
+}

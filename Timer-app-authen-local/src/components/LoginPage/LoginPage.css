@@ -1,0 +1,111 @@
+
+.signin>div:nth-child(1){
+    margin-top: 100px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 14px 0 rgb(0 0 0 / 20%);
+    width: 60vw;
+    min-width: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    justify-content: center;
+
+}
+
+.signin>div:nth-child(1)>div:nth-child(1),
+.signin>div:nth-child(1)>div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.signin>div:nth-child(1)>div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    width: 70%;
+}
+
+.signin>div>div>input {
+    height: 40px;
+    min-width: 150px;
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #c3c3c3; 
+    border-radius: 4px;
+    font-size: 25px;
+}
+.signin>div>div>input:hover {
+    border: 1px solid black;
+    box-shadow: 4px 4px #c3c3c3;
+}
+
+.signin>div>div>label {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin: 10px 0px 5px;
+}
+
+.signin>div:nth-child(1)>div:nth-child(3)>button{
+    margin: 10px 0px;
+    height: 40px;
+    width: 50%;
+    max-width: 150px;
+    min-width: 150px;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 4px;
+    background: #FF2500;
+    border-bottom: 4px solid #c20027;
+    border-right: 4px solid #c20027;
+    color: white;
+    letter-spacing: 2px;
+}
+
+
+.signin>div:nth-child(1)>div:nth-child(3)>button:hover{
+    background: rgb(194, 20, 20);
+}
+
+.warning{
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    width: 100%;
+    text-align: center; 
+    border-bottom: 4px solid #b5c200;
+    border-right: 4px solid #b5c200;
+    animation-name: loading;
+    animation-duration: 3s
+}
+
+@keyframes loading{
+    from{opacity: 0.1;background-color: red;}
+    to{opacity: 1;background-color: yellow;}
+}
+
+
+@media screen and (max-width:700px){
+    .warning{
+        font-size: 15px;
+    }
+}
+
+

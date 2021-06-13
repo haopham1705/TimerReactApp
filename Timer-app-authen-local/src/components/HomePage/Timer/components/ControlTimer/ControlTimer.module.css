@@ -1,0 +1,123 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container_control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.start {
+    width: 300px;
+    height: 100px;
+    margin: 10px 10px;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border: solid black 4px;
+    border-radius: 20px;
+    background-color: greenyellow;
+}
+
+.start:hover {
+    box-shadow: 8px 8px #708064;
+    transition: all .5s ease-out;
+}
+
+.start:focus {
+    background-position: left bottom;
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background-position: right bottom;
+    background: linear-gradient(to right,white 50%, yellowgreen 50%);
+    background-position: right;
+    transition: all 1s ease;
+    background-size: 200% 100%;
+}
+
+.pause {
+    width: 300px;
+    height: 100px;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin: 10px 10px;
+    border: solid black 4px;
+    border-radius: 20px;
+    background: red
+}
+
+.pause:hover {
+    box-shadow: 8px 8px #caae83;
+    transition: all .5s ease-out;
+}
+
+.pause:active {
+    background-position: left bottom;
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background-position: right bottom;
+    background: linear-gradient(to right,white 50%, orange 50%);
+    background-position: right;
+    transition: all 1s ease;
+    background-size: 200% 100%;
+}
+
+.container_control > button:nth-child(2) {
+    width: 300px;
+    height: 100px;
+    margin: 10px 10px;
+    border: solid black 4px;
+    border-radius: 20px;
+    background :gainsboro;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.container_control > button:nth-child(2):hover {
+    background: grey;
+    box-shadow: 8px 8px #708064;
+    background: linear-gradient(to right,black 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+
+.container_control + button {
+    width: 300px;
+    height: 100px;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border: solid black 4px;
+    border-radius: 20px;
+    background: rgb(89, 89, 194);
+}
+
+.container_control + button:hover {
+    background:blue;
+    box-shadow: 8px 8px #8495ce;
+    background: linear-gradient(to right,black 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+.container_control > button:nth-child(2):focus {
+    background-position: left bottom;
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background-position: right bottom;
+    background: linear-gradient(to right,white 50%, rgb(90, 86, 78) 50%);
+    background-position: right;
+    transition: all 1s ease;
+    background-size: 200% 100%;
+}
